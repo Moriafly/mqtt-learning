@@ -33,7 +33,7 @@ class Client {
     }
 
     /**
-     * 设置阻塞 API
+     * 设置阻塞的连接
      */
     fun setBlockConnect() {
         val connection = mqtt.blockingConnection()
@@ -47,6 +47,11 @@ class Client {
         connection.disconnect()
     }
 
+    /**
+     * 设置阻塞的连接
+     */
+    fun setCallbackConnect() {
 
+    }
 
 }
