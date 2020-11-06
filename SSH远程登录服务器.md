@@ -70,3 +70,27 @@ ssh colin@192.168.0.200
 ip addr | grep inet
 ```
 
+SSH Client 基本
+
+```
+shh user@remote -p port
+```
+
+- user 是你在远程服务器上的用户名，阿里云 
+
+
+
+```
+ssh root@101.133.142.45 -p 22
+```
+
+```
+The authenticity of host '101.133.142.45 (101.133.142.45)' can't be established.
+ECDSA key fingerprint is SHA256:0R34YygFHZRlRJrDdXRdUYo+e6AqLR9wYdhzFMIlUA8.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+```
+
+```
+`123456q
+```
+
